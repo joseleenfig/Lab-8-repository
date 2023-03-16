@@ -1,0 +1,52 @@
+/*the standard CSS comments will show up on the output
+.css file*/
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  color: rgb(34, 0, 128);
+}
+
+#container {
+  width: 100px;
+}
+
+/*formats the lsit*/
+ul {
+  font-size: 22px;
+  font-family: Georgia;
+  color: #174230;
+}
+ul li {
+  font-size: 22px;
+}
+
+.standard {
+  color: #421729;
+}
+
+.different {
+  color: #e8bdcf;
+  background-color: #421729;
+}
+
+/*media query for grid*/
+@media screen and (max-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #adb5b2;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #adb5b2;
+  }
+}
+/*formats the grid item*/
+.grid-item {
+  background-color: #d2d2d2;
+  border: 1px solid #adb5b5;
+  margin: 10px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+//typography
+$ulsize: 40px;
+$lisize: round($ulsize*.8);
+$ulfont: Georgia;
+
+//colors
+$ulcolor: #174230;
+$licolor: complement($ulcolor);
+$licolordiff: invert($ulcolor);
+$bgcolorgrit: invert(grayscale($ulcolor));
+$bgcolorgr: mix($ulcolor, $bgcolorgrit, 20);
+$bgcolorborder: adjust-hue($bgcolorgr, 20);
+
+//screensize
+$screen: 1000px;
+
+//my new variables for fony styles//
+$myfont: 'Courier New', Courier, monospace;
+$mycolor: rgb(34, 0, 128);
+$myfontSize: 22px;
+$mywidth: 100px;
+
+body{
+    font-family: $myfont;
+    font-size: $myfontSize;
+    color: $mycolor;
+}
+#container {
+    width: $mywidth;
+}
